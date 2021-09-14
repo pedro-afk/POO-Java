@@ -18,7 +18,7 @@ public class App {
 
             switch (options) {
                 case 1:
-                    valorDiaria = Double.parseDouble(JOptionPane.showInputDialog("Alterar dias locação")); 
+                    valorDiaria = Double.parseDouble(JOptionPane.showInputDialog("Alterar valor dias locação")); 
                     carro.setValorDiaria(valorDiaria);
                     break;
                 case 2: 
@@ -26,6 +26,7 @@ public class App {
                     break;
                 case 3:
                     carro.cadastraVeiculos();
+                    break;
                 default:
                     break;
             }
